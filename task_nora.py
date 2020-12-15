@@ -1,5 +1,5 @@
 from fpdf import FPDF
-title = "2020-12-10 Hands-on Task for Nora" 
+title = "2020-12-10 Hands-on Task for Nora " 
 input1 = "Input 1"
 pdf = FPDF()
 pdf.add_page()
