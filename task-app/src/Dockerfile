@@ -6,4 +6,4 @@ COPY task_nora.py .
 
 EXPOSE 80
 
-CMD [ "python", "./task_nora.py" ]
+CMD [ "python", "task_nora.py" ]
