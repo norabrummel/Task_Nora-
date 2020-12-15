@@ -5,5 +5,5 @@ pdf = FPDF()
 pdf.add_page()
 pdf.set_font("Helvetica", size=18)
 pdf.cell(200, 10, txt=title + input1, ln=1, align="L")
-pdf.output("2020-12-10 Hands-on Task for Nora.pdf")
+pdf.output("/files/2020-12-10 Hands-on Task for Nora.pdf")
          

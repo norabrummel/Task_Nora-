@@ -1,6 +1,6 @@
 FROM python:3 
 
-WORKDIR /app/src
+WORKDIR /app
 
 COPY task_nora.py . 
 
