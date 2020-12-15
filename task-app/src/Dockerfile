@@ -4,7 +4,7 @@ WORKDIR /app/src
 
 COPY task_nora.py . 
 
-EXPOSE 80
+VOLUME /files
 
 RUN pip3 install fpdf
 
